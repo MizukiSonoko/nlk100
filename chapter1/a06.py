@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 
 s1 = "paraparaparadise"
 s2 = "paragraph"
-
 def ngram(s,n=1):
     ls = []
     p = 0
@@ -22,5 +20,4 @@ print(X - Y)
 
 print("se" in X)
 print("se" in Y)
-
 

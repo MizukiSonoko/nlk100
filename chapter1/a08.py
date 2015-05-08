@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
 
 x = input("x ->")
-
 def cipher(x):
     res = ""
     for i in x:

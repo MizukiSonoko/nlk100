@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 f = open("hightemp.txt")
 
@@ -8,5 +7,4 @@ for s  in f.read():
         cnt += 1
 
 print(cnt)
-
 

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 
 x = input("x ->")
 y = input("y ->")

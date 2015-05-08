@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 import random
 
 def rand(w):
@@ -16,12 +16,10 @@ def rand(w):
     return res
 
 ss = "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
-
 wls = ss.split(' ')
 for w in wls:
     if len(w) < 4:
         print(w, end="")
     else:
         print(rand(w), end="")
-
 

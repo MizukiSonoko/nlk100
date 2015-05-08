@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-import codecs
-import sys
-sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
-
 import random
 
 def rand(w):
@@ -24,8 +20,8 @@ ss = "I couldn't believe that I could actually understand what I was reading : t
 wls = ss.split(' ')
 for w in wls:
     if len(w) < 4:
-        print w,
+        print(w, end="")
     else:
-        print rand(w),
+        print(rand(w), end="")
 
 

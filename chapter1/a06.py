@@ -16,11 +16,11 @@ def ngram(s,n=1):
 X = set( ngram(s1,2))
 Y = set( ngram(s2,2))
 
-print X | Y
-print X & Y
-print X - Y
+print(X | Y)
+print(X & Y)
+print(X - Y)
 
-print "se" in X
-print "se" in Y
+print("se" in X)
+print("se" in Y)
 
 

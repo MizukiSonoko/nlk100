@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-import codecs
-import sys
-sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
-x = raw_input("x ->")
+x = input("x ->")
 
 def cipher(x):
     res = ""
@@ -12,7 +9,7 @@ def cipher(x):
             res += chr(219 - ord(i))
         else:
             res += i
-    print res
+    print(res)
 
 cipher(x)
 

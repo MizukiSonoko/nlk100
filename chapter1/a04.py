@@ -7,6 +7,7 @@ count = 0
 for w in s.split(' '):
     count = count + 1 
     if count in ones:
-        print w[0:1]
+        print(w[0:1])
     else:
-	print w[0:2]
+	    print(w[0:2])
+

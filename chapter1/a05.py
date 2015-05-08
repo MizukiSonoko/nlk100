@@ -12,5 +12,5 @@ def ngram(s,n=1):
 
     return ls
 
-print ngram(ss,2)
-print ngram(ss,3)
+print(ngram(ss,2))
+print(ngram(ss,3))

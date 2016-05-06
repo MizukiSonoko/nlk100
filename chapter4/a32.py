@@ -17,7 +17,7 @@ class Morpheme:
 tokens = []
 while node:
 	d = node.feature.split(',')
-	tokens.append(Morpheme(node.surface.encode('utf-8').decode('utf-8'),d[-3],d[0],d[1]))
+	tokens.append(Morpheme(node.surface,d[-3],d[0],d[1]))
 	node = node.next
 
 for token in tokens:
